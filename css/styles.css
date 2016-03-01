@@ -66,7 +66,7 @@ a {
 	}
 	header img {
 		width: 40%;
-		border-radius: 100px;
+		border-radius: 80px;
 		position: relative;
 		left: 30%;
 		padding-top:5px;
@@ -242,7 +242,7 @@ a {
 	.profile {
 		float: right;
 		background-color: #adadad;
-		width: 40%;
+		width: 30%;
 		padding: 10px;
 		margin: 20px 0;
 		
@@ -309,7 +309,7 @@ a {
 	footer h3 {
 		float: left;
 		margin:  1px;
-		padding: 5px;
+		padding: 15px;
 	}
 
 	 .rows1, 
@@ -355,6 +355,11 @@ a {
  		font-size: 20px;
  	}	
 
+ 	.clearfix:after {
+ 		content: ".";
+ 		display: table;
+ 		clear: both;
+ 	}
 }
 
 
@@ -459,7 +464,6 @@ a {
 		text-align: center;
 		padding: 30px 0;
 		border-bottom: 1px solid black;
-		clear: both;
 	}
 
 	#main-footer {
@@ -484,7 +488,7 @@ a {
 	footer h3 {
 		float: left;
 		margin:  1px;
-		padding: 5px;
+		padding: 15px;
 	}
 
 	.rows1, 
@@ -503,14 +507,14 @@ a {
 	 .rows4,
 	 .rows5,
 	 .rows6  {
-	 	float: right;
+	 	float: left;
 	 	width: 30%;
 	 	margin: 10px 10px 0 5px;
  	 	display: inline-block;
  	 	position: relative;
  	 	text-align: center;
  	 	padding-bottom: 40px;
-	 	right: 30px;
+	 	left: 30px;
 	 	font-size: 12px;
  	}
 
@@ -529,7 +533,7 @@ a {
  	.rows4 p,
  	.rows5 p,
  	.rows6 p {
- 		font-size: 12px;
+ 		font-size: 2em;
  	}	
 
 
