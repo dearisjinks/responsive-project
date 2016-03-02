@@ -120,7 +120,7 @@ a {
 		text-align: center;
 		padding: 30px 10px;
 		border-bottom: 1px solid black;
-		width: 100%;
+		max-width: 100%;
 		right: 50px;
 	}
 
@@ -175,10 +175,10 @@ a {
 @media screen and (min-width: 768px) {
 
 	header img {
-		width: 30%;
+		width: 50%;
 		border-radius: 90px;
 		position: relative;
-		left: 30%;
+		left: 20%;
 		padding-top:5px;
 		text-align: center;
 	}
@@ -187,7 +187,7 @@ a {
 		
 		text-align: center;
 		font-size: 17px;
-		padding-top:5px;
+		padding: -50px;
 		
 	}
 
@@ -222,9 +222,9 @@ a {
 	.profile {
 		float: right;
 		background-color: #adadad;
-		width: 30%;
-		padding: 10px;
-		margin: 0 auto;
+		width: 20%;
+		padding: 40px;
+		margin: 20px auto;
 		
 	}
 
@@ -239,18 +239,19 @@ a {
 		max-width: 80%;
 		float: left;
 		/*padding: 0 20px;*/
+		margin-bottom: 70px;
 	}
 
 	.main-header {
 		padding: 100px 0;
-		width: 100%;
+		max-width: 100%;
 		
 	}
 
 
 	.wrap {
 		text-align: center;
-		padding: 20px;
+		/*padding: 20px;*/
 		max-width: 100%;
 		clear: both;
 		
@@ -298,6 +299,8 @@ a {
 	 	float: left;
 	 	max-width: 50%;
 	 	text-align: center;
+	 	vertical-align: middle;
+	 	padding: 30px 0;
 	 }
 	 .rows4,
 	 .rows5,
@@ -305,7 +308,8 @@ a {
 	 	float: right;
 		max-width: 50%;
 		text-align: center;
-		
+		vertical-align: middle;
+		padding: 30px 0;
  	}
 
  	.rows1 img,
@@ -333,6 +337,15 @@ a {
  	.rows5 h3,
  	.rows6 h3 {
  		font-size: 20px;
+ 	}	
+
+ 	.rows1 p,
+ 	.rows2 p,
+ 	.rows3 p,
+ 	.rows4 p,
+ 	.rows5 p,
+ 	.rows6 p {
+ 		font-size: 12px;
  	}	
 
  	.clearfix:after {
@@ -363,7 +376,7 @@ a {
 	}
 
 	header p {
-		margin: 5px 0;
+		margin: 4px 60px;
 		text-align: center;
 		font-size: 17px;
 		padding-top:5px;
@@ -389,7 +402,7 @@ a {
 	}
 
 	.main-nav h1 {
-		/*margin-left: 50px; */
+		margin: 0 0 0 -50px; 
 	}
 
 	.nav {
@@ -399,7 +412,7 @@ a {
 
 	.name {
 		top: 10px;
-		/*margin: 0 50px 0 0;*/
+		margin: 0 50px 0 0;
 		padding: 5px;
 		width: 40%;
 		display: inline;
@@ -408,8 +421,7 @@ a {
 
 	.profile {
 		float: right;
-		/*background-color: #adadad;*/
-		/*margin: 0 50px;*/
+		margin: 0 50px;
 		max-width: 20%;
 	}
 
@@ -474,7 +486,7 @@ a {
 	.rows2, 
 	.rows3  {
 	 	float: left;
-	 	max-width: 30%;
+	 	max-width:30%;
 	 	margin: 10px 10px 0 5px;
  	 	display: inline-block;
  	 	position: relative;
@@ -487,7 +499,7 @@ a {
 	 .rows5,
 	 .rows6  {
 	 	float: left;
-	 	width: 30%;
+	 	max-width: 30%;
 	 	margin: 10px 10px 0 5px;
  	 	display: inline-block;
  	 	position: relative;
@@ -506,14 +518,7 @@ a {
  		width: 100%;
  	}
 
- 	.rows1 p,
- 	.rows2 p,
- 	.rows3 p,
- 	.rows4 p,
- 	.rows5 p,
- 	.rows6 p {
- 		font-size: 12px;
- 	}	
+
 
 
 	
