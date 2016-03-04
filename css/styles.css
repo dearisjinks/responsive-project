@@ -184,10 +184,10 @@ a {
 	}
 
 	header p {
-		
+		margin: 0 auto;
 		text-align: center;
 		font-size: 17px;
-		padding: -50px;
+		padding-right: 50px;
 		
 	}
 
@@ -301,6 +301,7 @@ a {
 	 	text-align: center;
 	 	vertical-align: middle;
 	 	padding: 30px 0;
+	 	
 	 }
 	 .rows4,
 	 .rows5,
@@ -310,6 +311,7 @@ a {
 		text-align: center;
 		vertical-align: middle;
 		padding: 30px 0;
+		
  	}
 
  	.rows1 img,
@@ -345,7 +347,8 @@ a {
  	.rows4 p,
  	.rows5 p,
  	.rows6 p {
- 		font-size: 12px;
+ 		font-size: 11px;
+ 		text-align: center;
  	}	
 
  	.clearfix:after {
@@ -484,29 +487,31 @@ a {
 
 	.rows1, 
 	.rows2, 
-	.rows3  {
-	 	float: left;
+	.rows3
+	  	   {
+	 	float: right;
 	 	max-width:30%;
 	 	margin: 10px 10px 0 5px;
  	 	display: inline-block;
  	 	position: relative;
- 	 	text-align: center;
- 	 	padding-bottom: 20px;
-	 	left: 30px;
-	 	font-size: 12px;
+ 	 	vertical-align: middle;
+ 	 	padding-bottom: 40px;
+	 	/*left: 30px;*/
+
+	 	
 	 }
 	 .rows4,
 	 .rows5,
 	 .rows6  {
-	 	float: left;
+	 	float: right;
 	 	max-width: 30%;
 	 	margin: 10px 10px 0 5px;
  	 	display: inline-block;
  	 	position: relative;
- 	 	text-align: center;
+ 	 	vertical-align: middle;
  	 	padding-bottom: 40px;
-	 	left: 30px;
-	 	font-size: 12px;
+	 	/*right: 30px;*/
+	 	
  	}
 
  	.rows1 img,
@@ -518,6 +523,15 @@ a {
  		width: 100%;
  	}
 
+ 	.rows1 p,
+ 	.rows2 p,
+ 	.rows3 p,
+ 	.rows4 p,
+ 	.rows5 p,
+ 	.rows6 p {
+ 		font-size: 12px;
+ 		padding: 10px 0;
+ 	}	
 
 
 
